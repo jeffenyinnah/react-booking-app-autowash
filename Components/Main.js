@@ -8,7 +8,8 @@ class Main extends Component {
     return (
       <div>
         <header>
-          <h3>Amazing Lash Online Booking WEB</h3>
+          <img src={} />
+          <h3>Auto-Washimatic</h3>
           <NavLink to="/login">Login/Sign Up</NavLink>
         </header>        
       </div>
