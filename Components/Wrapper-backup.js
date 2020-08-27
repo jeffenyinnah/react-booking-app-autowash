@@ -9,11 +9,10 @@ class Wrapper extends Component {
     super();
     this.state = {
       services: [
-        '30 min Touch Up',
-        'Full set of Eyelash Extensions',
-        'Lash Refill',
-        'EyeLash Extension Removal',
-        'New Guest Eyelash Extension'
+        'Exterior Only - #1000',
+        'Interior Only - #1000',
+        'Both Interior & Exterior - #1800',
+        'Engine Wash - #2000',
       ],
       stylish: [
         'No prefrences',
@@ -21,7 +20,6 @@ class Wrapper extends Component {
         'Style 2',
         'Style 3',
         'Style 4',
-        'Style 5'
       ],
       yourServices: []
     };

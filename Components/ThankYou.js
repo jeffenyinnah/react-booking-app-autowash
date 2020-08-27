@@ -8,8 +8,8 @@ class ThankYou extends Component {
         <div className="col-md-4">
           <div className="card">
             <div className="card-body">
-              <h5>Thank you for making an appointment with <b>{this.props.userName}</b> at <b>Amazing Lash</b>.</h5>
-              <h5>Can't wait to see you!</h5>
+              <h5>Thank you for making an appointment with <b>{this.props.userName}</b> at <b>Auto-Washimatic</b>.</h5>
+              <h5>See you Soon!</h5>
               <br /><br />
               <button
                 type="button"
