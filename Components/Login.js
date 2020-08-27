@@ -5,8 +5,8 @@ class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      username: "test@gmail.com",
-      password: "password",
+      username: "",
+      password: "",
       errors: {}
     }
   }
