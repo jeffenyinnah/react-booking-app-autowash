@@ -1,6 +1,10 @@
 h1, p {
   font-family: Lato;
 }
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 body, html { margin: 0; padding: 0; }
 .main_wrapper{ padding: 30px;}
 .left_block{ border-radius: 10px; box-shadow: 0px 0px 8px 2px #ccc;}
@@ -13,4 +17,26 @@ body, html { margin: 0; padding: 0; }
 .user-data span{ display: block; margin: 5px 0 0 0;}
 .selectedlist h6{ margin-top: 15px;}
 
-header{ background: #f4bc35; padding: 25px; text-align: center; color: #fff;}
+header{ background: #f4bc35; padding: 25px; text-align: center; color: #000;}
+.a {
+  color: #fff;
+  text-decoration: none;
+}
+.list-group-item a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.list-group-item a:active,
+.list-group-item a:hover {
+  color: #fc3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #fc3;
+  border-color: #000;
+}

@@ -12,7 +12,8 @@ class Main extends Component {
               alt="Logo Image"
             />
           <h3>Auto-Washimatic</h3>
-          <NavLink to="/login">Login/Sign Up</NavLink>
+          <p>..Your mobile car detailing solution.</p>
+          <NavLink className="a" to="/login">Login/Sign Up</NavLink>
         </header>        
       </div>
     )

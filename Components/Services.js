@@ -3,7 +3,7 @@ import '../style.css';
 
 var styles = {
     active: {
-      backgroundColor: '#337ab7',
+      backgroundColor: '#f4bc35',
       color: '#ffffff'
     },
     inactive: {

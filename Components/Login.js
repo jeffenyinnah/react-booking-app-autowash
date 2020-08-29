@@ -17,6 +17,7 @@ class Login extends Component {
       let data = this.state.errors;
       data["user"] = true;
       this.setState({ erros: data });
+
     } else if (this.state.password == "") {
       let data = this.state.errors;
       data["password"] = true;
@@ -32,6 +33,7 @@ class Login extends Component {
       window.localStorage.setItem("username", this.state.username);
       this.props.history.push("/dashboard");
     }
+    console.log(this.props);
   }
 
   render() {
